@@ -3,11 +3,73 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <title>Marlboro Harvest Table</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+   
+    <!--Desktop version-->
+    <header class="desktop-nav d-none d-lg-block sticky-top">
+      <div class="container d-flex justify-contnet-between align-items-center py-3">
+        <a href="#top" class="brand-logo">Harvest Table</a>
+        <nav aria-label="Primary Navigation">
+          <ul class="nav gap-4 align-items-center">
+            <li><a href="#about-desktop" class="nav-link-custom">Mission</a></li>
+            <li><a href="#schedule-menu-desktop" class="nav-link-custom">Schedule &amp; Menu</a></li>
+          <li><a href="#tickets-desktop" class="nav-link-custom">Tickets &amp; Donate</a></li>
+          <li><a href="#location-desktop" class="nav-link-custom">Location</a></li>
+          <li><a href="#tickets-desktop" class="btn-autumn-primary">Get Tickets</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="d-none d-lg-block">
+      <section class="hero-desktop">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <p class="eyebrow-tag">Hosted by Marlboro Neighbors Helping Neighbors</p>
+              <h1>Harvest Table: A Community Thanksgiving Dinner</h1>
+              <p class="hero-lead">Gather with your neighbors for a warm holiday feast supporting local families. 100% of ticket sales and donations benefit the<strong>Harvest Hands Food Bank of Monmouth</strong></p>
+
+              <div class="hero-meta-grid">
+                <div class="meta-box">
+                  <span class="meta-label">WHEN</span>
+                  <strong>Saturday, November 28, 2026</strong>
+                  <span> 3:00-7:00 PM</span>
+                  </div>
+                  <div class="meta-box">
+                    <span class="meta-label">WHERE</span>
+                    <strong>Marlboro Recreation Center</strong>
+                    <span>1996 Recreation Way, Marlboro, NJ</span>
+                  </div>
+                  <div class="meta-box highlight-box">
+                    <span class="meta-label">TICKETS</span>
+                    <strong>$15 Adults · $8 Kids(4-12)</strong>
+                    <span>Under 4 FREE · Family 4-Pack $40</span>
+                  </div>
+                  </div>
+                  <div class="mt-4 d-flex gap-3">
+                    <a href="#tickets-desktop" class="btn-autumn-primary btn-lg"> Reserve Your Seat (RSVP Nov 20)</a>
+                    <a href="#schedule-menu-desktop" class="btn-autumn-outline btn-lg">View Full Menu</a>
+                  </div>
+                </div>
+
+                <div class="col-lg-5">
+            <div class="hero-image-frame">
+              <img src="https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?auto=format&fit=crop&w=1000&q=80" alt="Thanksgiving dinner table spread with roast turkey and autumn harvest sides">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
