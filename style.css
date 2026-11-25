@@ -112,15 +112,18 @@ a {
 }
 
 .meta-box {
-  background-color: var(--bg-sand);
+ background-color: var(--bg-sand);
   padding: 1rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
 .meta-box.highlight-box {
-  border: 2px solid var(--autumn-rust);
+ border-color: var(--autumn-rust);
+  transform: translateY(-2px);
 }
 
 .meta-label {
