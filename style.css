@@ -121,9 +121,9 @@ a {
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
-.meta-box.highlight-box {
+.meta-box: hover {
  border-color: var(--autumn-rust);
-  transform: translateY(-2px);
+  transform: translateY(-2px)
 }
 
 .meta-label {
