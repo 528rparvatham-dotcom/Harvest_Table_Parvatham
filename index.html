@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,700;1,6..72,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -15,115 +15,406 @@
   <body>
 
     <!--Desktop version-->
-    <header class="desktop-nav d-none d-lg-block sticky-top">
-      <div class="container d-flex justify-content-between align-items-center py-3">
-        <a href="#top" class="brand-logo">Harvest Table</a>
-        <nav aria-label="Primary Navigation">
-          <ul class="nav gap-4 align-items-center">
-            <li><a href="#about-desktop" class="nav-link-custom">Mission</a></li>
-            <li><a href="#schedule-menu-desktop" class="nav-link-custom">Schedule &amp; Menu</a></li>
-            <li><a href="#tickets-desktop" class="nav-link-custom">Tickets &amp; Donate</a></li>
-            <li><a href="#location-desktop" class="nav-link-custom">Location</a></li>
-            <li><a href="#tickets-desktop" class="btn-autumn-primary">Get Tickets</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main id="top" class="d-none d-lg-block">
-      <section class="hero-desktop">
-        <div class="container">
-          <div class="row align-items-center g-5">
-            <div class="col-lg-7">
-              <p class="eyebrow-tag">Hosted by Marlboro Neighbors Helping Neighbors</p>
-              <h1>Harvest Table: A Community Thanksgiving Dinner</h1>
-              <p class="hero-lead">Gather with your neighbors for a warm holiday feast supporting local families. 100% of ticket sales and donations benefit the <strong>Harvest Hands Food Bank of Monmouth</strong>.</p>
-
-              <div class="hero-meta-grid">
-                <div class="meta-box">
-                  <span class="meta-label">WHEN</span>
-                  <strong>Saturday, November 28, 2026</strong>
-                  <span>3:00–7:00 PM</span>
-                </div>
-                <div class="meta-box">
-                  <span class="meta-label">WHERE</span>
-                  <strong>Marlboro Recreation Center</strong>
-                  <span>1996 Recreation Way, Marlboro, NJ 07746</span>
-                </div>
-                <div class="meta-box highlight-box">
-                  <span class="meta-label">TICKETS</span>
-                  <strong>$15 Adults · $8 Kids (4–12)</strong>
-                  <span>Under 4 FREE · Family 4-Pack $40</span>
-                </div>
-              </div>
-
-              <div class="mt-4 d-flex gap-3">
-                <a href="#tickets-desktop" class="btn-autumn-primary btn-lg">Reserve Your Seat (RSVP Nov 20)</a>
-                <a href="#schedule-menu-desktop" class="btn-autumn-outline btn-lg">View Full Menu</a>
-              </div>
-            </div>
-
-            <div class="col-lg-5">
-              <div class="hero-image-frame">
-                <img src="images (40).jpeg" alt="Thanksgiving feast">
-              </div>
-            </div>
-          </div>
+    <div class="desktop-view">
+      <header class="desktop-nav sticky-top">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+          <a href="#top" class="brand-logo">Harvest Table</a>
+          <nav aria-label="Primary Navigation">
+            <ul class="nav gap-4 align-items-center">
+              <li><a href="#about-desktop" class="nav-link-custom">Mission</a></li>
+              <li><a href="#schedule-menu-desktop" class="nav-link-custom">Schedule &amp; Menu</a></li>
+              <li><a href="#tickets-desktop" class="nav-link-custom">Tickets &amp; Donate</a></li>
+              <li><a href="#location-desktop" class="nav-link-custom">Location</a></li>
+              <li><a href="#tickets-desktop" class="btn-autumn-primary">Get Tickets</a></li>
+            </ul>
+          </nav>
         </div>
-      </section>
+      </header>
 
-      <!-- Mission (Desktop) -->
-      <section id="about-desktop" class="section-cream py-5">
-        <div class="container py-4">
-          <div class="row align-items-center g-5">
-            <div class="col-lg-5">
-              <div class="story-image-frame">
-                <img src="images (41).jpeg" alt="Volunteers packing boxes">
+      <main id="top">
+        <section class="hero-desktop">
+          <div class="container">
+            <div class="row align-items-center g-5">
+              <div class="col-lg-7">
+                <p class="host-line">Hosted by Marlboro Neighbors Helping Neighbors</p>
+                <h1><em>Harvest Table:</em> A Community Thanksgiving Dinner</h1>
+                <p class="hero-lead">Pull up a chair with neighbors for a warm holiday meal supporting local families. 100% of tickets and donations go to the <strong>Harvest Hands Food Bank of Monmouth</strong>.</p>
+
+                <div class="hero-meta-grid">
+                  <div class="meta-box">
+                    <span class="meta-label">When</span>
+                    <strong>Saturday, November 28, 2026</strong>
+                    <span>3:00 – 7:00 PM</span>
+                  </div>
+                  <div class="meta-box">
+                    <span class="meta-label">Where</span>
+                    <strong>Marlboro Recreation Center</strong>
+                    <span>1996 Recreation Way, Marlboro, NJ 07746</span>
+                  </div>
+                  <div class="meta-box">
+                    <span class="meta-label">Tickets</span>
+                    <strong>$15 Adults · $8 Kids (4–12)</strong>
+                    <span>Under 4 FREE · Family 4-Pack $40</span>
+                  </div>
+                </div>
+
+                <div class="mt-4 d-flex gap-3">
+                  <a href="#tickets-desktop" class="btn-autumn-primary">Reserve Seats (RSVP Nov 20)</a>
+                  <a href="#schedule-menu-desktop" class="btn-autumn-outline">See the Menu</a>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-7">
-              <span class="section-kicker">100% FOR OUR COMMUNITY</span>
-              <h2>Every Seat Fills a Pantry</h2>
-              <p class="fs-5">100% of tickets and donations go directly to the <strong>Harvest Hands Food Bank of Monmouth</strong> to provide holiday meals and groceries to Monmouth County families.</p>
-              <div class="row g-3 mt-3">
-                <div class="col-md-4">
-                  <div class="impact-card">
-                    <span class="impact-price">$10</span>
-                    <span class="impact-meals">= 20 meals</span>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="impact-card">
-                    <span class="impact-price">$25</span>
-                    <span class="impact-meals">= 50 meals</span>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="impact-card">
-                    <span class="impact-price">$50</span>
-                    <span class="impact-meals">= 100 meals</span>
-                  </div>
+
+              <div class="col-lg-5">
+                <div class="hero-image-frame">
+                  <img src="images (40).jpeg" alt="Thanksgiving feast">
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Schedule (Desktop) -->
-      <section id="schedule-menu-desktop" class="py-5">
-        <div class="container py-4">
-          <div class="row g-5">
-            <div class="col-lg-4">
-              <span class="section-kicker">EVENING TIMELINE</span>
-              <h2>Schedule &amp; Activities</h2>
-              <ul class="timeline-list mt-4">
-                <li>
-                  <span class="time-badge">3:00 PM</span>
-                  <div>
-                    <strong>Doors Open &amp; Kid Zone</strong>
-                    <p>Kids' craft corner · Pumpkin decorating · Thankful Wall</p>
+        <!-- Mission (Desktop) -->
+        <section id="about-desktop" class="section-cream py-5">
+          <div class="container py-4">
+            <div class="row align-items-center g-5">
+              <div class="col-lg-5">
+                <div class="story-image-frame">
+                  <img src="images (41).jpeg" alt="Volunteers packing boxes">
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <h2>Every Seat Fills a Local Pantry</h2>
+                <p class="fs-5">100% of tickets and donations go to the <strong>Harvest Hands Food Bank of Monmouth</strong> to stock shelves and provide holiday dinners across Monmouth County.</p>
+                <div class="row g-3 mt-3">
+                  <div class="col-md-4">
+                    <div class="impact-card">
+                      <span class="impact-price">$10</span>
+                      <span class="impact-meals">= 20 meals</span>
+                    </div>
                   </div>
-                </li>
-                <li>
-                  <span class
+                  <div class="col-md-4">
+                    <div class="impact-card">
+                      <span class="impact-price">$25</span>
+                      <span class="impact-meals">= 50 meals</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="impact-card">
+                      <span class="impact-price">$50</span>
+                      <span class="impact-meals">= 100 meals</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Schedule & Menu (Desktop) -->
+        <section id="schedule-menu-desktop" class="py-5">
+          <div class="container py-4">
+            <div class="row g-5">
+              <div class="col-lg-4">
+                <h2>Afternoon Schedule</h2>
+                <ul class="timeline-list mt-4">
+                  <li>
+                    <span class="time-badge">3:00 PM</span>
+                    <div>
+                      <strong>Doors Open &amp; Kid Zone</strong>
+                      <p>Kids' craft corner · Pumpkin decorating · Thankful Wall</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="time-badge">4:30 PM</span>
+                    <div>
+                      <strong>Dinner is Served</strong>
+                      <p>Full Thanksgiving buffet opens for all guests</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="time-badge">6:00 PM</span>
+                    <div>
+                      <strong>Pie Contest + Desserts</strong>
+                      <p>Community pie judging &amp; sweet treats</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="time-badge">6:45 PM</span>
+                    <div>
+                      <strong>Food Bank Thank-You + Raffle</strong>
+                      <p>Closing remarks and prize drawings</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-8">
+                <h2>Thanksgiving Menu</h2>
+                <div class="row g-4 mt-2">
+                  <div class="col-md-6">
+                    <div class="menu-card">
+                      <h3>Mains</h3>
+                      <ul>
+                        <li>Roast turkey</li>
+                        <li>Honey-glazed ham</li>
+                        <li>Stuffed acorn squash (vegetarian)</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="menu-card">
+                      <h3>Sides</h3>
+                      <ul>
+                        <li>Mashed potatoes</li>
+                        <li>Stuffing</li>
+                        <li>Mac &amp; cheese</li>
+                        <li>Green beans</li>
+                        <li>Cranberry sauce</li>
+                        <li>Cornbread</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="menu-card">
+                      <h3>Dessert</h3>
+                      <ul>
+                        <li>Pumpkin pie</li>
+                        <li>Apple pie</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="menu-card">
+                      <h3>Drinks</h3>
+                      <ul>
+                        <li>Warm apple cider</li>
+                        <li>Water</li>
+                        <li>Coffee</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <p class="allergy-note mt-3"><strong>Allergies:</strong> Let our staff know when you arrive.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Tickets & Donations (Desktop) -->
+        <section id="tickets-desktop" class="section-cream py-5">
+          <div class="container py-4">
+            <div class="d-flex justify-content-between align-items-end flex-wrap gap-3 mb-4 pb-3 border-bottom-ink">
+              <div>
+                <h2>Tickets &amp; RSVP</h2>
+                <p class="mb-0">Please <strong>RSVP by Friday, November 20</strong> so we can prepare enough food for everyone.</p>
+              </div>
+              <div class="food-drive-note">
+                <strong>Canned Food Deal:</strong> Bring 3 canned goods and get <strong>$2 off each ticket</strong>
+              </div>
+            </div>
+
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="ticket-card">
+                  <h3>Adults</h3>
+                  <p class="price-tag">$15</p>
+                  <p class="small">Full dinner &amp; evening activities</p>
+                  <a href="#" class="btn-autumn-primary w-100 mt-auto">Buy Ticket</a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="ticket-card">
+                  <h3>Kids 4–12</h3>
+                  <p class="price-tag">$8</p>
+                  <p class="small">Dinner &amp; Kids' Craft Corner</p>
+                  <a href="#" class="btn-autumn-primary w-100 mt-auto">Buy Ticket</a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="ticket-card">
+                  <h3>Under 4</h3>
+                  <p class="price-tag">FREE</p>
+                  <p class="small">Include in your family RSVP</p>
+                  <a href="#" class="btn-autumn-outline w-100 mt-auto">Reserve Spot</a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="ticket-card featured-ticket">
+                  <h3>Family 4-Pack</h3>
+                  <p class="price-tag">$40</p>
+                  <p class="small">Admission for 4 family members</p>
+                  <a href="#" class="btn-autumn-primary w-100 mt-auto">Buy 4-Pack</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="donate-box mt-5 p-4">
+              <div class="row align-items-center g-3">
+                <div class="col-lg-6">
+                  <h3 class="mb-1">Donate Meals Directly</h3>
+                  <p class="mb-0">100% of proceeds support <strong>Harvest Hands Food Bank of Monmouth</strong> ($10 = 20 meals · $25 = 50 meals · $50 = 100 meals).</p>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-lg-end gap-2 flex-wrap">
+                  <a href="#" class="btn-autumn-secondary">Donate $10 (20 Meals)</a>
+                  <a href="#" class="btn-autumn-secondary">Donate $25 (50 Meals)</a>
+                  <a href="#" class="btn-autumn-secondary">Donate $50 (100 Meals)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Location (Desktop) -->
+        <section id="location-desktop" class="py-5">
+          <div class="container py-4">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-7">
+                <h2>Location &amp; Parking</h2>
+                <p class="fs-5 mb-1"><strong>Marlboro Recreation Center</strong></p>
+                <p class="fs-5 mb-3">1996 Recreation Way, Marlboro, NJ 07746</p>
+                <p class="mb-4"><strong>Parking:</strong> Free parking. Accessible entrance.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Marlboro+Recreation+Center+1996+Recreation+Way+Marlboro+NJ+07746" target="_blank" rel="noopener noreferrer" class="btn-autumn-primary">Open in Google Maps</a>
+              </div>
+              <div class="col-lg-5">
+                <div class="map-visual-card p-4">
+                  <p class="mb-2"><strong>Arriving at the Rec Center</strong></p>
+                  <p class="mb-0">Enter from Wyncrest Road onto Recreation Way. Follow the Harvest Table signs straight to the main accessible entrance and free parking lot.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer (Desktop) -->
+      <footer class="site-footer py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+          <div>
+            <strong>Marlboro Neighbors Helping Neighbors</strong> · Harvest Table
+          </div>
+          <div>
+            <a href="mailto:harvesttable@example.org">harvesttable@example.org</a> · 
+            <a href="tel:7325550148">(732) 555-0148</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!--Mobile version-->
+    <div class="mobile-view">
+      <header class="mobile-header text-center py-2">
+        <span>Marlboro Neighbors Helping Neighbors</span>
+      </header>
+
+      <main class="mobile-app pb-5">
+        <section class="mobile-hero px-3 pt-3 pb-3">
+          <div class="mobile-ticket-stub">
+            <div class="stub-top">
+              <h1><em>Harvest Table</em></h1>
+              <p class="stub-subtitle">Community Thanksgiving Dinner</p>
+              <div class="stub-details">
+                <p><strong>Date:</strong> Saturday, November 28, 2026</p>
+                <p><strong>Time:</strong> 3:00 – 7:00 PM</p>
+                <p><strong>Where:</strong> Marlboro Recreation Center, 1996 Recreation Way, Marlboro, NJ 07746</p>
+              </div>
+              <a href="#tickets-mobile" class="btn-autumn-primary w-100 text-center d-block mt-3">Get Tickets ($15 Adults · Kids $8)</a>
+            </div>
+            <div class="stub-image">
+              <img src="images (40).jpeg" alt="Thanksgiving feast">
+            </div>
+          </div>
+        </section>
+
+        <!-- Mission (Mobile) -->
+        <section id="about-mobile" class="px-3 pb-3">
+          <div class="mobile-foodbank-card p-3">
+            <h2>Harvest Hands Food Bank of Monmouth</h2>
+            <p class="small mb-2">100% of tickets and donations go to the Harvest Hands Food Bank of Monmouth:</p>
+            <ul class="impact-pills">
+              <li><strong>$10</strong> = 20 meals</li>
+              <li><strong>$25</strong> = 50 meals</li>
+              <li><strong>$50</strong> = 100 meals</li>
+            </ul>
+            <a href="#tickets-mobile" class="btn-autumn-secondary w-100 text-center d-block mt-3">Donate Meals</a>
+          </div>
+        </section>
+
+        <!-- Schedule & Menu (Mobile) -->
+        <section class="px-3 py-2">
+          <h2 class="mobile-h2">Schedule &amp; Menu</h2>
+
+          <details class="mobile-accordion" open>
+            <summary>Event Schedule &amp; Kids' Activities</summary>
+            <div class="accordion-body">
+              <p><strong>3:00 PM:</strong> Doors open · Kids' craft corner · Pumpkin decorating · Thankful Wall</p>
+              <p><strong>4:30 PM:</strong> Dinner is served</p>
+              <p><strong>6:00 PM:</strong> Pie contest + desserts</p>
+              <p class="mb-0"><strong>6:45 PM:</strong> Food bank thank-you + raffle</p>
+            </div>
+          </details>
+
+          <details class="mobile-accordion">
+            <summary>Full Thanksgiving Menu</summary>
+            <div class="accordion-body">
+              <p><strong>Mains:</strong> Roast turkey · Honey-glazed ham · Stuffed acorn squash (vegetarian)</p>
+              <p><strong>Sides:</strong> Mashed potatoes · Stuffing · Mac &amp; cheese · Green beans · Cranberry sauce · Cornbread</p>
+              <p><strong>Dessert:</strong> Pumpkin pie · Apple pie</p>
+              <p><strong>Drinks:</strong> Warm apple cider · Water · Coffee</p>
+              <p class="mb-0"><em>Allergies: Let our staff know when you arrive.</em></p>
+            </div>
+          </details>
+        </section>
+
+        <!-- Tickets & Donations (Mobile) -->
+        <section id="tickets-mobile" class="px-3 py-3">
+          <h2 class="mobile-h2">Tickets &amp; RSVP</h2>
+          <p class="small mb-2"><strong>RSVP by Friday, November 20.</strong> Bring 3 canned goods and get <strong>$2 off each ticket</strong>.</p>
+
+          <div class="mobile-price-list">
+            <div class="m-price-row">
+              <span><strong>Adults</strong></span>
+              <span>$15 <a href="#" class="btn-mini">Buy</a></span>
+            </div>
+            <div class="m-price-row">
+              <span><strong>Kids 4–12</strong></span>
+              <span>$8 <a href="#" class="btn-mini">Buy</a></span>
+            </div>
+            <div class="m-price-row">
+              <span><strong>Under 4</strong></span>
+              <span>FREE <a href="#" class="btn-mini">RSVP</a></span>
+            </div>
+            <div class="m-price-row">
+              <span><strong>Family 4-Pack</strong></span>
+              <span>$40 <a href="#" class="btn-mini">Buy</a></span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Location (Mobile) -->
+        <section id="location-mobile" class="px-3 py-2">
+          <h2 class="mobile-h2">Location &amp; Parking</h2>
+          <div class="mobile-loc-card p-3">
+            <p class="mb-1"><strong>Marlboro Recreation Center</strong></p>
+            <p class="mb-2">1996 Recreation Way, Marlboro, NJ 07746</p>
+            <p class="small mb-3"><strong>Parking:</strong> Free parking. Accessible entrance.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Marlboro+Recreation+Center+1996+Recreation+Way+Marlboro+NJ+07746" target="_blank" rel="noopener noreferrer" class="btn-autumn-primary w-100 text-center d-block">Open Google Maps</a>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer (Mobile) -->
+      <footer class="mobile-footer px-3 pt-3 pb-5 mb-4 text-center">
+        <p class="mb-1"><strong>Marlboro Neighbors Helping Neighbors</strong></p>
+        <p class="mb-1"><a href="mailto:harvesttable@example.org">harvesttable@example.org</a></p>
+        <p class="mb-0"><a href="tel:7325550148">(732) 555-0148</a></p>
+      </footer>
+
+      <nav class="mobile-sticky-bar" aria-label="Mobile Quick Actions">
+        <a href="#tickets-mobile">Tickets</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Marlboro+Recreation+Center+1996+Recreation+Way+Marlboro+NJ+07746" target="_blank" rel="noopener noreferrer">Directions</a>
+        <a href="tel:7325550148">Call</a>
+      </nav>
+    </div>
+
+  </body>
+</html>
